@@ -1,0 +1,113 @@
+/* Common.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f7c34a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Responsive section */
+.intro-section {
+    margin-bottom: 40px;
+}
+
+/* Responsive footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+        padding: 15px 0;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: 0.95em;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.85em;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
