@@ -18,25 +18,34 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <header>
-    <a href="index.html">
-        <img src="logo.png" alt="Logo" class="logo" />
+  <nav class="navbar">
+    <div class="nav-brand">Contact Us</div>
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
     </a>
-    <h1>Contact us</h1>
-   
-      <li><a href="index.html">Home</a></li>
-      <li><a href="aboutus.html">Team</a></li>
-      <li><a href="contactus.html">Contact</a></li>
- 
-</header>
+    <div class="navbar-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="home.html">Menu</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </div>
+</nav>
     <div id="form">
     
     <div class="fish" id="fish"></div>
     <div class="fish" id="fish2"></div>
     
-    <form id="waterform" method="post">
-    
-    <div class="formgroup" id="name-form">
+    <form action="https://api.web3forms.com/submit"
+    method="POST"
+    >
+    <input type="hidden"
+    name="access_key"
+    value="aa0914a4-7953-4982-91ac-870f892c6e10"
+    />
+ <div class="formgroup" id="name-form">
         <label for="name">Your name*</label>
         <input type="text" id="name" name="name" />
     </div>
@@ -54,3 +63,7 @@
         <input type="submit" value="Send your message!" />
     </form>
     </div>
+    <footer>
+      <p>&copy;2024 MIT Autonomous | All Rights Reserved</p>
+  </footer>
+</html>
