@@ -248,7 +248,7 @@ body {
   .section-head-text {
     font-size: 36px;
     font-weight: 700;
-    color: #0d6ee5;
+    color: #90542fe6;
     margin-bottom: 15px;
   }
   
@@ -332,6 +332,9 @@ body {
   .social-media-links img:hover {
     opacity: 0.7;
   }
+  
+
+
   
   @media (max-width: 768px) {
     .responsive-cell-block {
